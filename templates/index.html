@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MXHub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Welcome to MXHub</h1>
+        <p>Your platform for learning and growth.</p>
+        <a href="{{ url_for('course_list') }}" class="btn btn-primary">View Courses</a>
+        <a href="{{ url_for('register') }}" class="btn btn-secondary">Register</a>
+        <a href="{{ url_for('login') }}" class="btn btn-success">Login</a>
+    </div>
+</body>
+</html>
+
